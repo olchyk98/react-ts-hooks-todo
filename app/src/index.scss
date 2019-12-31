@@ -1,0 +1,15 @@
+html,
+body {
+    margin: 0;
+    height: 100%;
+}
+
+.task {
+    cursor:pointer;
+
+    &:hover:after {
+        content: 'Delete';
+        color:rgba(black, .4);
+        margin-left:5px;;
+    }
+}
